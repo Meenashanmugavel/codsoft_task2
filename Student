@@ -1,0 +1,18 @@
+import java.util.ArrayList;
+import java.util.List;
+
+public class Student {
+    private List<Subject> subjects;
+
+    public Student() {
+        subjects = new ArrayList<>();
+    }
+
+    public void addSubject(Subject subject) {
+        subjects.add(subject);
+    }
+
+    public List<Subject> getSubjects() {
+        return subjects;
+    }
+}
